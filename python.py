@@ -32,6 +32,8 @@ from aiogram.types import (
 )
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 from aiogram.fsm.storage.memory import MemoryStorage
+from dotenv import load_dotenv
+load_dotenv()
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # SOZLAMALAR
@@ -39,7 +41,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 # Railway'da BOT_TOKEN environment variable orqali o'rnatiladi
 # Lokal ishlatishda to'g'ridan-to'g'ri yozilgan token ishlatiladi
-API_TOKEN = os.getenv("BOT_TOKEN", "8793166730:AAGRaQ9AXji0Nn2qkEpMWmXc-pte2mzDOUY")
+API_TOKEN = os.getenv("BOT_TOKEN")
 CBU_API_URL = "https://cbu.uz/uz/arkhiv-kursov-valyut/json/"
 REQUEST_TIMEOUT = 10  # API so'rov kutish vaqti (soniya)
 FAVORITES_MAX = 10  # Har bir foydalanuvchi uchun max sevimli valyutalar
