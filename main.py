@@ -1,21 +1,3 @@
-"""
-🤖 Valyuta Kursi Telegram Bot — v2.0
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Texnologiyalar: Aiogram 3.x | Python 3.10+ | cbu.uz API
-Muallif: IT Live
-Versiya: 2.0
-
-Imkoniyatlar:
-  • Asosiy kurslar (USD, EUR, RUB) + o'zgarish foizi
-  • 70+ valyuta kurslari (sahifalangan)
-  • Ikki tomonlama konvertatsiya (valyuta↔so'm)
-  • Kurs trend tahlili (ko'tarilgan/tushgan)
-  • Sevimlilar tizimi (foydalanuvchi boshiga max 10 ta)
-  • /rate, /convert buyruqlari
-  • Tezkor hisob: "100 usd" formatida
-  • Inline tugmalar bilan valyuta tanlash
-"""
-
 import logging
 import asyncio
 import os
